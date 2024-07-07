@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 20px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #000;
+  background: url(./iTunesBackground.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  color: #32047c;
+}
+
+input[type="text"],
+button {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #003366;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #003366;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #002244;
+}
+
+.loader {
+  display: none;
+  margin: 10px 0;
+  font-style: italic;
+  font-size: larger;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  opacity: 0.9;
+}
+
+table,
+th,
+td {
+  border: 1px solid #003366;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #003366;
+  color: #fff;
+}
+
+td {
+  background-color: #e6f2ff;
+}
